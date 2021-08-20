@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:untitled/pages/home_page.dart';
+// ignore: unused_import
 import 'package:untitled/pages/pdvPage.dart';
 
 class PdvScreen extends StatelessWidget {
@@ -7,14 +9,12 @@ class PdvScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "produtos",
+      title: "Cripto Moedas",
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Container(
-        child: PdvPage(),
-      ),
+      home: HomePage(),
     );
   }
 }
